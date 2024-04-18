@@ -19,6 +19,6 @@ public class EncryptionExample {
         Cipher cipher = Cipher.getInstance(ALGORITHM);
         cipher.init(Cipher.DECRYPT_MODE, key);
         byte[] decryptedBytes = cipher.doFinal(Base64.getDecoder().decode(encryptedMessage));
-        return new String(decryptedBytes, "UTF-8");
+        return new String(decryptedBytes,  "UTF-8");
     }
 }
