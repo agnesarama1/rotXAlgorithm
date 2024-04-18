@@ -15,7 +15,7 @@ public class EncryptionExample {
         byte[] encryptedBytes = cipher.doFinal(message.getBytes("UTF-8"));
         return Base64.getEncoder().encodeToString(encryptedBytes);
     }
-    public static String decrypt(String encryptedMessage, Key key) throws Exception {
+    public static  String decrypt(String encryptedMessage, Key key) throws Exception {
         Cipher cipher = Cipher.getInstance(ALGORITHM);
         cipher.init(Cipher.DECRYPT_MODE, key);
         byte[] decryptedBytes = cipher.doFinal(Base64.getDecoder().decode(encryptedMessage));
