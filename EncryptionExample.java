@@ -29,7 +29,10 @@ public class EncryptionExample {
                 int index = (ROTX_ALPHABET.indexof(c)+ rotX) % ROTX_ALPHABET.length();
                 result.append(ROTX_ALPHABET.charAt(index));
             }
+            else {
+                result.append(c);
+            }
         }
-    }
+        return result.toString();
 
 }
