@@ -34,6 +34,7 @@ public class EncryptionExample {
             }
         }
         return result.toString();
+    }
         public static String rotXDecrypt(String encryptedMessage, int rotX) {
         StringBuilder result = new StringBuilder();
         for (char c : encryptedMessage.toCharArray()) {
