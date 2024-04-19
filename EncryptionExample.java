@@ -24,9 +24,9 @@ public class EncryptionExample {
 
     public static String rotXEncrypt (String message, int rotX){
         StringBuilder result= new StringBuilder ();
-        for (char c: message.toCharArray()) {
-            if (ROTX_ALPHABET.indexof(c)>=0){
-                int index = (ROTX_ALPHABET.indexof(c)+ rotX) % ROTX_ALPHABET.length();
+        for (char c : message.toCharArray()) {
+            if (ROTX_ALPHABET.indexOf(c)>=0){
+                int index = (ROTX_ALPHABET.indexOf(c)+ rotX) % ROTX_ALPHABET.length();
                 result.append(ROTX_ALPHABET.charAt(index));
             }
             else {
@@ -48,5 +48,24 @@ public class EncryptionExample {
         return result.toString();
     }
         
+
+}
+
+public static void main(String[] args) throws Exception {
+    Scanner scanner = new Scanner(System.in);
+    System.out.print("Please input the message: ");
+    String message = scanner.nextLine();
+    String secretKey;
+    while (true) {
+        System.out.print("Input the length of the key (16, 24, or 32): ");
+        secretKey = scanner.nextLine();
+        if (secretKey.equals("16") || secretKey.equals("24") || secretKey.equals("32")) {
+            break;
+        }
+        System.out.println("Invalid key length. Key length must be 16, 24, or 32. ");
+    }
+
+    //vazhdone qitu e deri kur t mbyllet kllapa
+
 
 }
