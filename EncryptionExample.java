@@ -24,6 +24,12 @@ public class EncryptionExample {
 
     public static String rotXEncrypt (String message, int rotX){
         StringBuilder result= new StringBuilder ();
+        for (char c: message.toCharArray()) {
+            if (ROTX_ALPHABET.indexof(c)>=0){
+                int index = (ROTX_ALPHABET.indexof(c)+ rotX) % ROTX_ALPHABET.length();
+                result.append(ROTX_ALPHABET.charAt(index));
+            }
+        }
     }
 
 }
