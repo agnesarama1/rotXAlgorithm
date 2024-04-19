@@ -21,4 +21,9 @@ public class EncryptionExample {
         byte[] decryptedBytes = cipher.doFinal(Base64.getDecoder().decode(encryptedMessage));
         return new String(decryptedBytes, "UTF-8");
     }
+
+    public static String rotXEncrypt (String message, int rotX){
+        StringBuilder result= new StringBuilder ();
+    }
+
 }
