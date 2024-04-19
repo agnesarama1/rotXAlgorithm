@@ -49,8 +49,6 @@ public class EncryptionExample {
     }
         
 
-}
-
 public static void main(String[] args) throws Exception {
     Scanner scanner = new Scanner(System.in);
     System.out.print("Please input the message: ");
@@ -69,3 +67,5 @@ public static void main(String[] args) throws Exception {
 
 
 }
+}
+    
