@@ -1,7 +1,6 @@
 # rotX - Algorithm
 Projekti i dytë nga lënda "Siguria e të dhënave".
-# Universiteti i Prishtinës 
-# FIEK - Fakulteti i Inxhinierisë Elektrike dhe Kompjuterike
+
 # Departamenti - Inxhinieri Softuerike dhe Kompjuterike
 
 
