@@ -1,8 +1,6 @@
 # rotX - Algorithm
 Projekti i dytë nga lënda "Siguria e të dhënave".
 
-# Departamenti - Inxhinieri Softuerike dhe Kompjuterike
-
 
 
 Kodi rotX është një algoritëm i thjeshtë për të enkriptuar mesazhe duke zëvendësuar çdo shkronjë me shkronjën që ndodhet X pozicione më tej në alfabet. Përdoruesi zgjedh vlerën e X-it dhe algoritmi punon sipas kësaj vlerë. Ndër algoritmet më të njohura ROTX është ROT13, ku X është 13. Ky algoritëm është i ngjashëm me kodin e Cezarit të Romës së lashtë, por është anasjelltas me të, pasi ai ka 26 shkronja në alfabetin latin dhe punon me një shifër të vetme për çdo shkronjë dhe kërkon vetëm 26 variantet e mundshme dhe kjo bën që ROT13 të jetë më i përshtatshëm për kodim dhe dekodim.
