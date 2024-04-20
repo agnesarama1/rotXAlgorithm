@@ -63,7 +63,11 @@ public static void main(String[] args) throws Exception {
         System.out.println("Invalid key length. Key length must be 16, 24, or 32. ");
     }
 
-    //vazhdone qitu e deri kur t mbyllet kllapa
+        byte[] keyBytes = new byte[Integer.parseInt(secretKey)];
+        Key key = new SecretKeySpec(keyBytes, "AES");
+
+        String encryptedMessage = encrypt(message, key);
+        System.out.println("Encrypted message: " + encryptedMessage);
 
 
 }
