@@ -85,11 +85,9 @@ public class EncryptionExample {
             }
 
         }
-    }
 
     int rotX;
     while(true)
-
     {
         System.out.println("Enter the rotation factor X:");
         String input = scanner.nextLine();
@@ -102,8 +100,13 @@ public class EncryptionExample {
         }
     }
 
-    //Encrypt using ROTX
+    
     String encryptedMessageRotX = rotXEncrypt(message, rotx);
     System.out.println("Encrypted message with ROT"+ rotX + ": "+ encryptedMessageRotX);
+    
+    String decryptedMessageRotX = rotXDecrypt(encryptedMessageRotX, rotX);
+    System.out.println("Decrypted message with ROT" + rotX + ": " + decryptedMessageRotX);
+    scanner.close();
 
+  }
 }
