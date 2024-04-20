@@ -77,7 +77,7 @@ public static void main(String[] args) throws Exception {
             String decryptedMessage = decrypt(encryptedMessage, key);
             System.out.println("Decrypted message: " + decryptedMessage);
             break; // Exit the loop if a valid value is entered
-        } else if (choice.equalsIgnoreCase("N")) {
+        } else if  (choice.equalsIgnoreCase("N")) {
             break; // Exit the loop if a valid value is entered
         } else {
             System.out.println("Invalid choice. Please enter Y or N.");
