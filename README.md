@@ -1,7 +1,13 @@
 # rotX - Algorithm
 Projekti i dytë nga lënda "Siguria e të dhënave".
+# Universiteti i Prishtinës 
+# FIEK - Fakulteti i Inxhinierisë Elektrike dhe Kompjuterike
+# Departamenti - Inxhinieri Softuerike dhe Kompjuterike
 
-Kodi rotX është një algoritëm i thjeshtë për të enkriptuar mesazhe duke zëvendësuar çdo shkronjë me shkronjën që ndodhet X pozicione më tej në alfabet. Përdoruesi zgjedh vlerën e X-it dhe algoritmi punon sipas kësaj vlerë. Ndër algoritmet më të njohura ROTX është ROT13, ku X është 13. Ky algoritëm është i ngjashëm me kodin e Cezarit të Romës së lashtë, por është anasjelltas me të, pasi ai ka 26 shkronja në alfabetin latin dhe punon me një shifër të vetme për çdo shkronjë dhe kërkon vetëm 26 variantet e mundshme dhe kjo bën që ROT13 të jetë më i përshtatshëm për kodim dhe dekodim. Mirëpo, ROTX ende është i prekshëm për shkelje të lehtë të sigurisë sepse nuk ofron siguri të lartë kibernetike. Shpesh referohet edhe si shembull i dobët i enkriptimit.
+
+
+Kodi rotX është një algoritëm i thjeshtë për të enkriptuar mesazhe duke zëvendësuar çdo shkronjë me shkronjën që ndodhet X pozicione më tej në alfabet. Përdoruesi zgjedh vlerën e X-it dhe algoritmi punon sipas kësaj vlerë. Ndër algoritmet më të njohura ROTX është ROT13, ku X është 13. Ky algoritëm është i ngjashëm me kodin e Cezarit të Romës së lashtë, por është anasjelltas me të, pasi ai ka 26 shkronja në alfabetin latin dhe punon me një shifër të vetme për çdo shkronjë dhe kërkon vetëm 26 variantet e mundshme dhe kjo bën që ROT13 të jetë më i përshtatshëm për kodim dhe dekodim.
+Mirëpo, ROTX ende është i prekshëm për shkelje të lehtë të sigurisë sepse nuk ofron siguri të lartë kibernetike. Shpesh referohet edhe si shembull i dobët i enkriptimit.
 
 Ky algoritëm është një shembull i thjeshtë i enkriptimit dhe dekriptimit të tekstit duke përdorur algoritmin simetrik AES (Advanced Encryption Standard - a symmetric block cipher algorithm with a block/chunk size of 128 bits). Në këtë algoritëm, programi kërkon nga shfrytëzuesi të specifikojë një vlerë input të tekstit që dëshiron të enkriptojë, pastaj kërkon gjatësinë e çelësit simetrik (16, 24 ose 32 byte) dhe në fund rotacionin e alfabetit të caktuar nga përdoruesi.
 
