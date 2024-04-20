@@ -101,5 +101,9 @@ public class EncryptionExample {
             System.out.println("Invalid input. Please enter a valid integer for the rotation factor.");
         }
     }
-    
+
+    //Encrypt using ROTX
+    String encryptedMessageRotX = rotXEncrypt(message, rotx);
+    System.out.println("Encrypted message with ROT"+ rotX + ": "+ encryptedMessageRotX);
+
 }
