@@ -69,6 +69,19 @@ public static void main(String[] args) throws Exception {
         String encryptedMessage = encrypt(message, key);
         System.out.println("Encrypted message: " + encryptedMessage);
 
+    while (true) {
+        System.out.print("Do you want to display the decrypted message? (Y/N): ");
+        String choice = scanner.nextLine();
+        // Check if the user entered "Y" or "N"
+        if (choice.equalsIgnoreCase("Y")) {
+            String decryptedMessage = decrypt(encryptedMessage, key);
+            System.out.println("Decrypted message: " + decryptedMessage);
+            break; // Exit the loop if a valid value is entered
+        } else if (choice.equalsIgnoreCase("N")) {
+            break; // Exit the loop if a valid value is entered
+        } else {
+            System.out.println("Invalid choice. Please enter Y or N.");
+        }
 
 }
 }
