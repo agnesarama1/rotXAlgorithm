@@ -6,10 +6,10 @@ Departamenti: Inxhinieri Kompjuterike dhe Softuerike
 Projekti i dytë nga lënda "Siguria e të dhënave".
 
 # Contributors 
-Agnesa Rama
-Agnesa Mani
-Agnesa Hulaj
-Albin Shala
+* Agnesa Rama
+* Agnesa Mani
+* Agnesa Hulaj
+* Albin Shala
 
 # Asistenti i lëndës
 Mërgim Hoti
