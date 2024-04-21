@@ -1,6 +1,6 @@
 # Universiteti i Prishtinës 'Hasan Prishtina'
-Fakulteti i Inxhinierisë Elektrike dhe Kompjuterike
-Departamenti: Inxhinieri Kompjuterike dhe Softuerike
+* Fakulteti i Inxhinierisë Elektrike dhe Kompjuterike
+* Departamenti: Inxhinieri Kompjuterike dhe Softuerike
 
 # rotX - Algorithm
 Projekti i dytë nga lënda "Siguria e të dhënave".
@@ -14,6 +14,7 @@ Projekti i dytë nga lënda "Siguria e të dhënave".
 # Asistenti i lëndës
 Mërgim Hoti
 
+# Project Description
 Kodi rotX është një algoritëm i thjeshtë për të enkriptuar mesazhe duke zëvendësuar çdo shkronjë me shkronjën që ndodhet X pozicione më tej në alfabet. Përdoruesi zgjedh vlerën e X-it dhe algoritmi punon sipas kësaj vlerë. Ndër algoritmet më të njohura ROTX është ROT13, ku X është 13. Ky algoritëm është i ngjashëm me kodin e Cezarit të Romës së lashtë, por është anasjelltas me të, pasi ai ka 26 shkronja në alfabetin latin dhe punon me një shifër të vetme për çdo shkronjë dhe kërkon vetëm 26 variantet e mundshme dhe kjo bën që ROT13 të jetë më i përshtatshëm për kodim dhe dekodim.
 Mirëpo, ROTX ende është i prekshëm për shkelje të lehtë të sigurisë sepse nuk ofron siguri të lartë kibernetike. Shpesh referohet edhe si shembull i dobët i enkriptimit.
 
